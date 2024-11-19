@@ -45,5 +45,7 @@ class MainActivity : AppCompatActivity(), CounterView {
     override fun onDestroy() {
         super.onDestroy()
         presenter.detachCountView()
+        //mvp забыла ветку создать поэтому его залила в master
+
     }
 }
